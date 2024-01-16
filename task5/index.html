@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>JS Start. Задача 5</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Главная</a>
+                </li>
+                <li>
+                    <a href="../task1/">Задача 1</a>
+                </li>
+                <li>
+                    <a href="../task2/">Задача 2</a>
+                </li>
+                <li>
+                    <a href="../task3/">Задача 3</a>
+                </li>
+                <li>
+                    <a href="../task4/">Задача 4</a>
+                </li>
+                <li class="active">
+                    <a href="#">Задача 5</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Задача 5. Перехват формы</h1>
+
+        <section id="form_interception">
+            <div class="container">
+                <div class="form">
+                    <form action="#" method="post">
+                        <label for="input_text">Текст
+                            <input type="text" id="input_text" placeholder="Введите текст" value="">
+                        </label>
+    
+                        <button type="submit">Вывести текст в консоль и удалить из формы</button>
+                    </form>
+    
+                    <div class="text">
+                        <p>Введённый текст:</p>
+                        <p id="duplicate_field"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright">
+            <p>&copy;&nbsp;Anton Komarov,&nbsp;2023</p>
+        </div>
+    </footer>
+
+    <script src="../scripts/script5.js"></script>
+</body>
+</html>
